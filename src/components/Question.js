@@ -10,10 +10,10 @@ const Question = ({
 }) => {
   return (
     <li className="question">
-      <h2 className="question-title" tabIndex="0">
+      <h2 className="question-title" tabIndex="0" style={{ fontSize: 18 }}>
         {question}
       </h2>
-      <ul className="question-answers" tabIndex="-1">
+      <ul className="question-answers" tabIndex="-1" style={{ fontSize: 16 }}>
         {answers.map((answer, index) => {
           return (
             <Answer
